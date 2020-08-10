@@ -1,0 +1,15 @@
+{application, texas,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  ranch,
+                  cowlib,
+                  cowboy
+                 ]},
+  {mod, { texas_app, []}},
+  {env, []}
+ ]}.
