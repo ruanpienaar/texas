@@ -26,6 +26,4 @@ stop(_State) ->
     ok.
 
 routes(M) ->
-    [
-        {"/[...]", texas_handler, [M]}
-    ].
+    [{"/[...]", texas_handler, [M]}].
